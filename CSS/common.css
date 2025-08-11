@@ -131,9 +131,9 @@ body {
 /*-------------------------------------------------------------------*/
 .footer {
     margin-top: 7px;
-    padding: 20px;
+    padding: 17px;
     margin-bottom: 0;
-    height: 4vh;
+    height: 20px;
     background: var(--footer-bg);
 }
 
@@ -182,4 +182,5 @@ body {
     .hamburger i:hover {
         color: #ffffff;
     }
+
 }
