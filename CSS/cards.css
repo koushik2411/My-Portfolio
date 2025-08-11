@@ -89,6 +89,10 @@ h5 {
     color: var(--text-color);
 }
 
+.desc:hover {
+    color: var(--text-hover);
+}
+
 a {
     display: flex;
     justify-content: center;
@@ -140,5 +144,6 @@ a {
         align-self: center;
     }
 }
+
 
 @media (max-width: 412px) {}
