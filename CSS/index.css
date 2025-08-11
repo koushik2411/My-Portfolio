@@ -152,7 +152,7 @@ body.dark-mode {
 
 .vm-btn {
     width: 90px;
-    height: 30px;
+    height: 25px;
     align-items: center;
     margin: 18px;
     border: 1px solid var(--border-color);
@@ -531,6 +531,7 @@ body.dark-mode {
 
 
 }
+
 
 
 
