@@ -247,7 +247,7 @@ body.dark-mode {
 /*Contact*/
 #Contact {
     width: 96vw;
-    height: 20vh;
+    height: auto;
     margin-top: 10px;
     color: var(--text-color);
     justify-self: center;
@@ -259,7 +259,7 @@ body.dark-mode {
     display: flex;
     justify-content: center;
     gap: 45px;
-    margin-top: 25px;
+    margin: 25px;
     display: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
@@ -437,12 +437,12 @@ body.dark-mode {
 
     .card {
         width: 90vw;
-        height: 48vh;
+        height: auto;
     }
 
     .p-card {
         width: 90vw;
-        height: 40vh;
+        height: auto;
     }
 
     .card-img img {
@@ -496,18 +496,22 @@ body.dark-mode {
     }
 
     .card {
-        height: 48vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
     .p-card {
-        height: 42vh;
+        height: auto;
         width: 90vw;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .card-img {
+        margin-top: 15px;
     }
 
     .card-img img {
@@ -525,5 +529,6 @@ body.dark-mode {
         padding: 5px;
         gap: 35px;
     }
+
 
 }
