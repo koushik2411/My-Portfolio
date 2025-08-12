@@ -238,6 +238,10 @@ body.dark-mode {
     justify-self: center;
     border: 2px solid var(--border-color);
     border-radius: 5px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select: none;
+    outline: none;
 }
 
 .cont-opts {
@@ -531,6 +535,7 @@ body.dark-mode {
 
 
 }
+
 
 
 
