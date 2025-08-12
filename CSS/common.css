@@ -133,7 +133,7 @@ body {
     margin-top: 7px;
     padding: 17px;
     margin-bottom: 0;
-    height: 20px;
+    height: 14px;
     background: var(--footer-bg);
 }
 
@@ -184,3 +184,4 @@ body {
     }
 
 }
+
