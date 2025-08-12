@@ -146,9 +146,14 @@ a {
         width: auto;
     }
 
+     .provider {
+        align-self: center;
+    }
+
     .card-desc h4 {
         align-self: center;
     }
 }
+
 
 @media (max-width: 412px) {}
